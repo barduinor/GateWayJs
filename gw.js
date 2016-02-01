@@ -11,10 +11,10 @@ var mqtt_password = 'muWRRbZs9hoW';
 var mqtt_Options = {
      port:mqtt_port
     ,keepalive: 10 //seconds, set to 0 to disable
-    ,clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8)
+    ,clientId: 'haall' + KEY
     ,protocolId: 'MQTT'
     //,protocolVersion: 4
-    ,clean: true //set to false to receive QoS 1 and 2 messages while offline
+    ,clean: false //set to false to receive QoS 1 and 2 messages while offline
     ,reconnectPeriod: 1000 // milliseconds, interval between two reconnections
     ,connectTimeout: 30 * 1000  //milliseconds, time to wait before a CONNACK is received
     ,username:mqtt_username //the username required by your broker, if any
@@ -188,7 +188,7 @@ function execREST(post_content){
 				sleep.usleep(SHORT_WAIT);
 			}
 		})
-});
+    });
 
 	// write the json data
 	reqPost.write(post_content);
