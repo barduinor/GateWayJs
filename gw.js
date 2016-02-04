@@ -20,9 +20,9 @@ var rest_host = '0.0.0.0';
 
 // MQTT SETTINGS
 var mqtt_host     = 'mqtts://m10.cloudmqtt.com';
-var mqtt_port     =  23068
-var mqtt_username = 'hzmuouhu';
-var mqtt_password = 'cm6DQQCKEhV2';
+var mqtt_port     =  29839
+var mqtt_username = 'kknntiab';
+var mqtt_password = 'O6zi0W_1o0sf';
 
 // OTHER SETTINGS
 var SHORT_WAIT = 500000; //microseconds (1 second is 1000000 microseconds)
