@@ -1,0 +1,17 @@
+{
+  "name": "gw",
+  "version": "0.0.2",
+  "description": "Gateway Module for MySensors",
+  "dependencies": {
+    "serialport": "^1.4.5",
+    "sleep": "^3.0.0",
+    "mqtt": "^1.7.0"
+  },
+  "main": "gw.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
