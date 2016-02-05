@@ -4,7 +4,6 @@
   "description": "Gateway Module for MySensors",
   "dependencies": {
     "serialport": "^1.4.5",
-    "sleep": "^3.0.0",
     "mqtt": "^1.7.0"
   },
   "main": "gw.js",
