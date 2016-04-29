@@ -3,10 +3,11 @@ var com = require("serialport");
 var mqtt = require('mqtt');
 
 // SERIAL PORT SETTINGS
-var serial_port = '/dev/ttyACM0';
+// var serial_port = '/dev/ttyACM0'; // RPI
 // var serial_port = 'COM3'; // windows
+var serial_port = '/dev/cu.usbmodem1411'; // Mac
 
-// MQTT SETTINGS
+// MQTT SETTINGS Example
 var mqtt_host     = 'mqtts://m10.cloudmqtt.com';
 var mqtt_port     =  8883;
 var mqtt_username =  'user name';
@@ -14,8 +15,9 @@ var mqtt_password =  'password';
 
 var KEY = 'yourkey';
 
-// publications will be made into /haall/yourkey/out/x/x/x/x
-// subcriptions will come from /haall/yourkey/in/x/x/x/
+
+// publications will be made into   /haall/yourkey/out/node-id/sensor-id/message-type/ack/sub-type
+// subcriptions will come from      /haall/yourkey/in/node-id/sensor-id/message-type/ack/sub-type
 // adjust as necessary
 
 // MQTT CLIENT OPTIONS
