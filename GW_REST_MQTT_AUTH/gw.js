@@ -7,9 +7,9 @@ var sleep = require('sleep');
 var mqtt = require('mqtt');
 
 // CONTROLLER SETTINGS
-var    KEY = 'anpj63w4mm6wk8tasmyfww9mw';
-var SECRET = 'ryaykwoamnddbjh4trjeihxvxhc365hi3me8p65qlq1og1k6le';
-var   HOST = 'barduino.outsystemscloud.com';
+var    KEY = 'xxx';
+var SECRET = 'xxx';
+var   HOST = 'xxx';
 
 // SERIAL PORT SETTINGS
 var serial_port = '/dev/ttyACM0';
@@ -21,8 +21,8 @@ var rest_host = '0.0.0.0';
 // MQTT SETTINGS
 var mqtt_host     = 'mqtts://m10.cloudmqtt.com';
 var mqtt_port     =  29839
-var mqtt_username = 'kknntiab';
-var mqtt_password = 'O6zi0W_1o0sf';
+var mqtt_username = 'xxx';
+var mqtt_password = 'xxx';
 
 // OTHER SETTINGS
 var SHORT_WAIT = 500000; //microseconds (1 second is 1000000 microseconds)
